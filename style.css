@@ -1,0 +1,54 @@
+body {
+    background-color: linear-gradient(to left, grey, lightgrey);
+}
+
+.wrapper {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: grey;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    box-shadow: black 10px 20px 100px 15px;
+}
+
+.wrapper h2 {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10%;
+}
+
+input[id="num-one"]{
+    width: 200px;
+    height: 30px;
+}
+
+input[id="num-two"]{
+    width: 200px;
+    height: 30px;
+}
+
+button {
+    background-color: darkslategrey;
+    border: solid 1px;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+input[type = "radio"]{
+    width: 20px;
+    height: 20px;
+}
+
+b {
+    font-size: 30px;
+}
